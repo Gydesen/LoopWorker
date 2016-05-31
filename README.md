@@ -1,9 +1,7 @@
 # LoopWorker
 A very simple class to set up scheduled task on arduino.
 
-
-Created by DillerSoft, so this probaly have many flaws and may set your greenhouse on fire.
-
+Created by DillerSoft, so this probably have many flaws and may set your greenhouse on fire.
 
 LoopWorker class is a really easy way to set up scheduled jobs on the arduino
 
@@ -23,9 +21,8 @@ use LoopWorker(5, "h") for setting up a job running every fifth hour
 
 use LoopWorker(5, "d") for setting up a job running every fifth day
 
-
 To see if your job is supposed to run, check for boolean true with LoopWorker.rdy()
 
 Known flaws
 
-As now there is no solution for when the long int runs out of numbers and get reset. This will happend every 49.7 day
+As now there is no solution for when the long int runs out of numbers and get reset. This will happened every 49.7 day
