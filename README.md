@@ -24,8 +24,6 @@ use LoopWorker(5, "h") for setting up a job running every fifth hour
 
 use LoopWorker(5, "d") for setting up a job running every fifth day
 
-To see if your job is supposed to run, check for boolean true with LoopWorker.rdy()
+When the desired time has passed, LoopWorker.rdy() will get boolean true
+if(myWorker.rdy()){ // Do work }
 
-Known flaws
-
-As now there is no solution for when the long int runs out of numbers and get reset. This will happened every 49.7 day
