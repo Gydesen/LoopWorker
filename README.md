@@ -9,7 +9,8 @@ LoopWorker class is a really easy way to set up scheduled jobs on the arduino
 
 USER GUIDE
 
-Download the newest ZIP file and add it to the Arduino IDE as a library. 
+For easy use Download the newest ZIP file and add it to the Arduino IDE as a library. 
+
 There is an example in the zip file.
 
 use LoopWorker(5) for set up a job running every fifth milli second
