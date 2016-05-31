@@ -1,5 +1,5 @@
 # LoopWorker
-A very simple class to set up scheduled task on arduino.
+A very simple class to set up scheduled task on arduino. It uses millis() and it can be used as a fast and simple way to avoid delay()
 
 Created by DillerSoft, so this probably have many flaws and may set your greenhouse on fire.
 
