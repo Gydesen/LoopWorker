@@ -3,13 +3,12 @@ A very simple class to set up scheduled task on arduino.
 
 Created by DillerSoft, so this probably have many flaws and may set your greenhouse on fire.
 
-LoopWorker class is a really easy way to set up scheduled jobs on the arduino
 
-31-05-2016 LoopWorker 0.1.0 - Dennis Gydesen
+31-05-2016 LoopWorker 0.1.0  The first version - Dennis Gydesen
 
 USER GUIDE
 
-For easy use Download the newest ZIP file and add it to the Arduino IDE as a library. 
+For easy use, download the newest ZIP file and add it to the Arduino IDE as a library. 
 
 There is an example in the zip file.
 
