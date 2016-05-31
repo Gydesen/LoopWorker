@@ -24,7 +24,7 @@ use LoopWorker(5, "h") for setting up a job running every fifth hour
 
 use LoopWorker(5, "d") for setting up a job running every fifth day
 
-When the desired time has passed, LoopWorker.rdy() will get boolean true
+When the desired time has passed, LoopWorker.rdy() will get boolean true and then start counting again.
 
 if(myWorker.rdy()){ // Do work }
 
